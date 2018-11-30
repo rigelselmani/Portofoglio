@@ -1,6 +1,39 @@
-  h1 {
-    background-color: rgb(149, 196, 149);
-    width: 100px;
-    padding: 45px;
-    margin: 25px;
+
+.right-menu {
+     height:70px;
+     padding:6px;
+     width:12%;
+     float: right;
+} 
+
+.left-menu {
+   padding: 10px;
+   color: aliceblue;
+   background-color: rgb(89, 233, 197);
+   width: 230px;
+   height:80px;
 }
+
+body {
+     background-image: url("https://www.pixeden.com/media/k2/galleries/131/004-subtle-light-pattern-background-texture.jpg");
+  
+  }
+
+
+h2 {
+color: #71daa9;
+}
+img {
+   float: left;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(7, 5, 5);
+   color: white;
+   text-align: center;
+}
+
