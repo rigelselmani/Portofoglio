@@ -38,21 +38,31 @@
    text-decoration: none;
    background: #4aaaa5;
  }
+.h1, h2, h3 {
+   font-family: Georgia, Times, "Times New Roman", serif;
+   font-weight: 700;
+   color: #4aaaa5;
+   border-bottom: 3px solid #dddddd;
+   padding-bottom: 20px;
+   font-size: 30px;
+   line-height: 49px;
+}
  nav{
  float: right;
  margin-top: 25px;
  margin-left: 15px;
  }
  
-h2{
-   padding-bottom: 20px;
-   font-size: 30px;
-   line-height: 33x;
-   border-bottom: 3px solid #dddddd;
-}
  #about{
    padding-top: 130px;
    min-height: calc(100vh - 70px);
+ }
+ .image {
+   float: left;
+   width: 200px;
+   height: auto;
+   margin-top: 10px;
+   margin-right: 25px;
  }
  .main{
    width: 100%;
@@ -62,7 +72,6 @@ h2{
    padding-top: 30px;
    background: #ffffff;
    border: 1px solid #dddddd;
-   
  }
 .footer {
    padding: 30px 0;
@@ -73,6 +82,7 @@ h2{
    background: #666666;
    border-top: 8px solid #4aaaa5;
    height: 50px;
+   width: 100%;
 }
 
 
@@ -86,3 +96,10 @@ h2{
    margin: 0 auto;
    clear: both;
 }
+/* .work {
+   position: relative;
+   float: left;
+   width: 274px;
+   margin: 20px 0 25px;
+   overflow: auto;
+} */
