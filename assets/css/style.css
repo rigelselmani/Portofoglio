@@ -50,8 +50,6 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
-
 #masthead {
   position: fixed;
   z-index: 99;
@@ -148,7 +146,7 @@ h3, h2 {
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  /* opacity: 10; */
 }
 
 .work h3 {
@@ -161,7 +159,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background:rgba(47, 47, 253, 0.616);
   border-bottom: 0;
 }
 
@@ -210,4 +208,10 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+#example {
+  text-align: center;
+  
 }
