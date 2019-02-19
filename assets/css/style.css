@@ -3,7 +3,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/BT-glass-window-by-Linda-Kellie.png");
+  /* background: url("../images/pexels-photo-311039.jpeg"); */
+  background-color: 	rgb(152, 181, 209);
 }
 
 * {
@@ -35,14 +36,14 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #cccccc;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px solid #f7eded;
 }
 
 h2,
@@ -56,8 +57,8 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
+  color: rgb(11, 119, 243);
+  background: #0033cc;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -72,7 +73,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #3faff0;
 }
 
 nav {
@@ -85,7 +86,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: rgb(240, 234, 234);
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -98,12 +99,12 @@ nav a:first-child {
 footer {
   padding: 30px 0;
   clear: both;
-  font-size: 12px;
+  font-size: 22px;
   color: #ffffff;
-  color: #cccccc;
+  color: #ffffff;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: #0033cc;
+  border-top: 8px solid #3faff0;
   height: 50px;
 }
 
@@ -136,9 +137,15 @@ h3, h2 {
   float: left;
   width: 274px;
   margin: 20px 0 25px;
-  overflow: auto;
+  border-radius:4px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transition: box-shadow 1s, transform 2s;
 }
-
+.work:hover {
+  box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+	transform: translate(5px,30px);
+	cursor: pointer;
+}
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -213,5 +220,7 @@ input[type=submit] {
 
 #example {
   text-align: center;
-  
+}
+.number {
+  text-align: center;
 }
