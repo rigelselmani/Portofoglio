@@ -140,6 +140,8 @@ h3, h2 {
   border-radius:4px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   transition: box-shadow 1s, transform 2s;
+  justify-content: space-around;
+  display: flex;
 }
 .work:hover {
   box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
@@ -223,4 +225,9 @@ input[type=submit] {
 }
 .number {
   text-align: center;
+}
+
+.img {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transition: box-shadow 1s, transform 2s;
 }
