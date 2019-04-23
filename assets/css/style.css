@@ -221,7 +221,8 @@ input[type=submit] {
 
 
 #example {
-  text-align: center;
+  /* text-align: center; */
+  float: right;
 }
 .number {
   text-align: center;
