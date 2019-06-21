@@ -3,15 +3,11 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #777777;
-  /* background: url("../images/pexels-photo-311039.jpeg"); */
-  background-color: #00A591;
-  
+  background-color: rgb(0, 0, 0);
+  /* background-image: url("../images/pexels-photo-311039.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 
 
 .container {
@@ -44,7 +40,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #f7eded;
+  border-bottom: 3px solid #0c0000;
 }
 
 h2,
@@ -58,23 +54,23 @@ h3{
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: rgb(11, 119, 243);
-  background: #0033cc;
+  color: rgb(56, 62, 70);
+  background: rgb(108, 108, 184);
   border-bottom: 2px solid #cccccc;
 }
 
 #logo {
-  float: left;
-  width: 250px;
+  float:left;
+  width: 450px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 90px;
-  color: #ffffff;
+  color: #030000;
   text-align: center;
   text-decoration: none;
-  background: #3faff0;
+  background: #feffff;
 }
 
 nav {
@@ -120,13 +116,14 @@ h3:hover, h2 {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
   padding-bottom: 20px;
+  margin-top:20px;
 }
 
 .main-section {
   float: left;
   width: 100%;
   max-width: 960px;
-  padding: 40px;
+  padding: 90px;
   margin: 0 0 30px;
   background: #ffffff;
   border: 3px solid #dddddd;
