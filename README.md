@@ -2,8 +2,8 @@
 
 https://rigelselmani.github.io/Basic-portofoglio/
 
-This is the first portfolio project that I built.
+This is the first portfolio project that I build.
 
-This portfolio is built using HTML & CSS.
+This portfolio is build using HTML & CSS.
 
-# HERE I HAVE STORED THE MOST IMPORTAT WORK I MADE IN THE BOOTCAMP.
+# Here i have few of my projects .
