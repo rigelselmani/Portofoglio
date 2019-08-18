@@ -49,14 +49,15 @@ h3{
 }
 
 #masthead {
-  position: fixed;
-  z-index: 99;
+  position: fixed top;
+  /* z-index: 99; */
   width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: rgb(56, 62, 70);
-  background: rgb(108, 108, 184);
-  border-bottom: 2px solid #cccccc;
+  /* margin: 0 0 30px; */
+  /* overflow: auto; */
+  /* color: rgb(56, 62, 70); */
+  /* background: rgb(69, 69, 248); */
+  /* border-bottom: 2px solid #cccccc; */
+ 
 }
 
 #logo {
@@ -91,7 +92,7 @@ nav a {
 nav a:first-child {
   border-left: 0 none;
 }
-
+/* 
 
 footer {
   padding: 30px 0;
@@ -103,7 +104,7 @@ footer {
   background: #0033cc;
   border-top: 8px solid #3faff0;
   height: 50px;
-}
+} */
 
 h3:hover, h2 {
   padding-bottom: 20px;
@@ -111,9 +112,8 @@ h3:hover, h2 {
   line-height: 22px;
 }
 
-
 #main-container {
-  padding-top: 130px;
+  padding-top: 60px;
   min-height: calc(100vh - 70px);
   padding-bottom: 20px;
   margin-top:20px;
@@ -173,7 +173,7 @@ h3:hover, h2 {
 .auth-image {
   float: left;
   width: 200px;
-  height: auto;
+  height: 220px;
   margin-top: 10px;
   margin-right: 25px;
 }
@@ -218,7 +218,7 @@ input[type=submit] {
 }
 
 
-#example {
+#contact {
   text-align: center;
   
 }
