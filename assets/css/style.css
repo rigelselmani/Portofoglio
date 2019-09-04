@@ -92,19 +92,6 @@ nav a {
 nav a:first-child {
   border-left: 0 none;
 }
-/* 
-
-footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 22px;
-  color: #ffffff;
-  color: #ffffff;
-  text-align: center;
-  background: #0033cc;
-  border-top: 8px solid #3faff0;
-  height: 50px;
-} */
 
 h3:hover, h2 {
   padding-bottom: 20px;
@@ -153,17 +140,17 @@ h3:hover, h2 {
 .work img {
   width: 100%;
   border: 0 none;
-  /* opacity: 10; */
+  opacity: 10;
 }
 
 .work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
-  padding: 15px;
+  padding: 7px, 0, 7, 0 ;
   margin-bottom: 0;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 40px;
   color: #ffffff;
   text-align: center;
   background:rgba(5, 238, 207, 0.222);
@@ -207,16 +194,6 @@ textarea {
 textarea {
   height: 200px;
 }
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-}
-
 
 #contact {
   text-align: center;
