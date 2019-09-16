@@ -156,7 +156,6 @@ h3:hover, h2 {
   background:rgba(5, 238, 207, 0.222);
   border-bottom: 0;
 }
-
 .auth-image {
   float: left;
   width: 200px;
@@ -205,22 +204,23 @@ hr {
 
 @media screen and(max-width: 320px){
   #main-container{
-    width :100%;
+    width :70%;
+    height:100%;
     }
     #masthead{
-       width :87%;
+       width :70%;
     }
     .main-section{
        width:80%;
     }
     #header{
-       width:100%;
+       width:70%;
     }
     .h1{
-       width:100%;
+       width:70px;;
     }
-    ul .list-inline{
-       color:white;
-       
+    .work{
+      width:60px;
     }
+    
 }
