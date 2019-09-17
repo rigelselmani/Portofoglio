@@ -106,6 +106,8 @@ h3:hover, h2 {
   min-height: calc(100vh - 70px);
   padding-bottom: 20px;
   margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .main-section {
@@ -184,45 +186,10 @@ h3:hover, h2 {
 }
 
 hr {
-  overflow: visible; /* For IE */
+  overflow: visible;
   height: 30px;
   border-style: solid;
   border-color: black;
   border-width: 1px 0 0 0;
   border-radius: 20px;
-}
-
-@media screen and(max-width: 768px){
-  #main-container{
-    width :100%;
-    }
-    #masthead{
-       width :87%;
-    }
-    .main-section{
-       width:80%;
-    }
-}
-
-@media screen and(max-width: 320px){
-  #main-container{
-    width :70%;
-    height:100%;
-    }
-    #masthead{
-       width :70%;
-    }
-    .main-section{
-       width:80%;
-    }
-    #header{
-       width:70%;
-    }
-    .h1{
-       width:70px;;
-    }
-    .work{
-      width:60px;
-    }
-    
 }
