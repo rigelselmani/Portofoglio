@@ -49,15 +49,9 @@ h3{
 }
 
 #masthead {
-  position: fixed top;
-  /* z-index: 99; */
+  
+  margin-top: 0;
   width: 100%;
-  /* margin: 0 0 30px; */
-  /* overflow: auto; */
-  /* color: rgb(56, 62, 70); */
-  /* background: rgb(69, 69, 248); */
-  /* border-bottom: 2px solid #cccccc; */
- 
 }
 
 #logo {
