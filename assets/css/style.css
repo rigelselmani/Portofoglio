@@ -3,7 +3,6 @@ body {
   font-size: 38px;
   line-height: 24px;
   color: #777777;
-  background-color: rgb(0, 0, 0);
   /* background-image: url("../images/header.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,32 +15,30 @@ body {
   width: 100%;
   float: left;
   font-size:30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #3b6978;
 }
-h1 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+h3 {
+  font-family: 'Roboto', sans-serif;
   color: #0f4c75;
+  margin-bottom:20px;
+  font-size:40px;
 }
-h4{
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  padding:0;
-  color: #0f4c75;
-
+.technical{
+  margin-bottom:10px;
+  color:#0f4c75;
+  font-family: 'Roboto', sans-serif;
 }
 .focus{
   color:#1b262c;
   margin-top:5px;
+  font-family: 'Roboto', sans-serif;
 }
 p {
   margin-bottom: 30px;
   line-height: 35px;
-  font-size: 25px;
+  font-size: 20px;
   color:#0f4c75;
-}
-.technical{
-  margin-bottom: 10px;
 }
 .web{
   color: #1b262c;
@@ -52,6 +49,7 @@ p {
 }
 #contact {
   margin-top: 60px;
+  color:#0f4c75;
 }
 .contact{
   margin-bottom:60px;
@@ -59,14 +57,14 @@ p {
 .number {
   position: absolute;
   margin: -45px 0 0 0;
-  color:#4d4c4c;
+  color:#0f4c75;
   font-size:22px;
 }
 .img{
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   transition: box-shadow 1s, transform 2s;
   height:115px;
-  width:18%;
+  width:17%;
 }
 .second-section{
   float: right;
