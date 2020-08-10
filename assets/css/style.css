@@ -10,11 +10,10 @@ body {
 }
 
 .first-section{
-  max-width: 45%;
+  max-width: 40%;
   margin: 50px 0 0 20px;
-  width: 100%;
   float: left;
-  font-size:30px;
+  font-size:40px;
   letter-spacing: 1px;
   color: #3b6978;
 }
@@ -27,22 +26,24 @@ h3 {
 .technical{
   margin-bottom:10px;
   color:#0f4c75;
+  font-size: 27px;
   font-family: 'Roboto', sans-serif;
 }
 .focus{
   color:#1b262c;
-  margin-top:5px;
+  margin-top:0px;
   font-family: 'Roboto', sans-serif;
 }
 p {
   margin-bottom: 30px;
-  line-height: 35px;
+  line-height: 30px;
   font-size: 20px;
   color:#0f4c75;
 }
 .web{
   color: #1b262c;
-  margin:0;
+  font-size: 30px;
+  margin:0 0 10px 0;
 }
 .skills-list{
   margin-top:0;
@@ -63,37 +64,37 @@ p {
 .img{
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   transition: box-shadow 1s, transform 2s;
-  height:115px;
-  width:17%;
+  height:100px;
+  width:15%;
 }
 .second-section{
   float: right;
   max-width: 45%;
-  margin: 50px 0 0 0;
+  margin:10px 0 0 0;
   padding:10px;
   width: 100%;
 }
-.work {
+img:hover {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	transform: translate(5px,15px);
+  cursor: pointer;
+}
+a{
+  height:300px;
+  width:300px;
+}
+.work img {
   position: relative;
   float: left;
-  width: 44%;
-  height:400px;
-  margin: 10px 0 25px;
+  width: 45%;
+  height:300px;
   border-radius:4px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   transition: box-shadow 1s, transform 1s;
   justify-content: space-around;
   display: flex;
-  margin-right: 40px;
-}
-.work:hover {
-  box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
-	transform: translate(5px,30px);
-  cursor: pointer;
-}
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: 10;
-  height:100%;
+  margin: 0 10px 25px 10px;
+
+
+
 }
