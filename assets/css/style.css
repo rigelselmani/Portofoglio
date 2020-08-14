@@ -11,7 +11,7 @@ body {
 
 .first-section{
   max-width: 40%;
-  margin: 50px 0 0 20px;
+  margin: 40px 0 0 20px;
   float: left;
   font-size:40px;
   letter-spacing: 1px;
@@ -49,7 +49,7 @@ p {
   margin-top:0;
 }
 #contact {
-  margin-top: 60px;
+  margin-top: 30px;
   color:#0f4c75;
 }
 .contact{
@@ -62,17 +62,22 @@ p {
   font-size:22px;
 }
 .img{
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-  transition: box-shadow 1s, transform 2s;
-  height:100px;
-  width:15%;
+  /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
+  /* transition: box-shadow 1s, transform 2s; */
+  height:90px;
+  width:14%;
 }
 .second-section{
   float: right;
   max-width: 45%;
-  margin:10px 0 0 0;
+  margin:20px 20px 0 0;
   padding:10px;
   width: 100%;
+}
+.second-head{
+  color: #1b262c;
+  font-size: 30px;
+  margin:0 0 2% 1%;
 }
 img:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -86,14 +91,14 @@ a{
 .work img {
   position: relative;
   float: left;
-  width: 45%;
-  height:300px;
+  width: 42%;
+  height:270px;
   border-radius:4px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   transition: box-shadow 1s, transform 1s;
   justify-content: space-around;
   display: flex;
-  margin: 0 10px 25px 10px;
+  margin: 0 20px 25px 10px;
 
 
 
