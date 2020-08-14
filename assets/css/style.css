@@ -61,11 +61,15 @@ p {
   color:#0f4c75;
   font-size:22px;
 }
-.img{
-  /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
-  /* transition: box-shadow 1s, transform 2s; */
+.img-contact{
   height:90px;
   width:14%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transition: box-shadow 1s, transform 1s;
+}
+.img-contact:hover{
+  transform: translate(1px,3px);
+  cursor: pointer;
 }
 .second-section{
   float: right;
@@ -79,13 +83,13 @@ p {
   font-size: 30px;
   margin:0 0 2% 1%;
 }
-img:hover {
+.work img:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 	transform: translate(5px,15px);
   cursor: pointer;
 }
 a{
-  height:300px;
+  height:40px;
   width:300px;
 }
 .work img {
@@ -99,7 +103,4 @@ a{
   justify-content: space-around;
   display: flex;
   margin: 0 20px 25px 10px;
-
-
-
 }
