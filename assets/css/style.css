@@ -2,11 +2,12 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 38px;
   line-height: 24px;
+  margin:0;
   color: #777777;
   /* background-image: url("../images/header.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #e2eff8;
+  background-color: #fff;
 }
 
 .first-section{
@@ -23,6 +24,7 @@ h3 {
   margin-bottom:20px;
   font-size:40px;
 }
+
 .technical{
   margin-bottom:10px;
   color:#0f4c75;
@@ -48,59 +50,64 @@ p {
 .skills-list{
   margin-top:0;
 }
-#contact {
-  margin-top: 30px;
+.info-section{
   color:#0f4c75;
+  box-shadow: 1px 2px 6px 0.1px rgba(187, 184, 184, 0.5);
+  border-radius: 5px;
+  border:1px solid rgb(248, 247, 247);
+  width:95%;
 }
-.contact{
-  margin-bottom:60px;
+h6{
+  font-family: 'Roboto', sans-serif;
+  margin:20px 10px 20px 23px;
 }
-.number {
-  position: absolute;
-  margin: -45px 0 0 0;
-  color:#0f4c75;
-  font-size:22px;
-}
-.img-contact{
-  height:90px;
-  width:14%;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-  transition: box-shadow 1s, transform 1s;
-}
-.img-contact:hover{
-  transform: translate(1px,3px);
-  cursor: pointer;
-}
+.contact-text{
+   color:rgb(63,81,181);
+   text-align: center;
+   display: inline-block;
+   padding:0px 28px 0px 28px;
+  }
+  a{
+    color:rgb(63,81,181);
+  }
+  .contact-icon{
+    width:20px;
+  }
+  .contact-icon:hover{
+    background-color: rgb(136, 116, 116);
+    
+  }
+  .contact-p{
+    text-align: center;
+    font-size: 13px;
+    margin-top:10px;
+  }
 .second-section{
   float: right;
   max-width: 45%;
   margin:20px 20px 0 0;
-  padding:10px;
-  width: 100%;
 }
 .second-head{
   color: #1b262c;
   font-size: 30px;
   margin:0 0 2% 1%;
 }
-.work img:hover {
+img:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 	transform: translate(5px,15px);
   cursor: pointer;
 }
 a{
   height:40px;
-  width:300px;
+  width:30%;
+  margin:5px;
 }
-.work img {
-  position: relative;
+img {
   float: left;
   width: 42%;
   height:270px;
   border-radius:4px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   transition: box-shadow 1s, transform 1s;
-  justify-content: space-around;
-  display: flex;
-  margin: 0 20px 25px 10px;
+  margin: 0px 20px 25px 10px;
 }
