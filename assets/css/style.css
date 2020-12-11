@@ -64,12 +64,15 @@ h6{
    color:rgb(63,81,181);
    text-align: center;
    display: inline-block;
+   text-align: center;
    padding:0px 28px 0px 28px;
   }
   a{
     color:rgb(63,81,181);
   }
- 
+  .icon:active{
+    color: rgb(14, 18, 41);;
+  }
   .contact-p{
     text-align: center;
     font-size: 13px;
