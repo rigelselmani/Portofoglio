@@ -78,19 +78,57 @@ h6{
     font-size: 13px;
     margin-top:10px;
   }
+/* Second section  */
+
 .second-section{
   float: right;
-  max-width: 45%;
+  max-width: 50%;
   margin:30px 20px 0 0;
   height:100%;
   margin-bottom: 130px;
 }
+
 .second-head{
   color: #1b262c;
   font-size: 30px;
-  margin:0 0 2% 1%;
+  margin:0 0 2% 12.5%;
 }
-img:hover {
+.project{
+  margin:10px 30px 30px 10px;
+  width:40%;
+  float:right;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transition: box-shadow 1s, transform 1s;
+  border-radius:4px;
+}
+.try-app{
+  position: absolute;
+  background: rgb(226, 225, 225);
+  width:100%;
+  color: #0f4c75;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding:10px 0 5px 0;
+  top:0px;
+  margin:0;
+}
+.github-link{
+  position: absolute;
+  background: rgb(226, 225, 225);
+  width:100%;
+  text-align: center;
+  padding:10px 0 5px 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #0f4c75;
+  top:185px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.project:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 	transform: translate(5px,15px);
   cursor: pointer;
@@ -98,17 +136,14 @@ img:hover {
 a{
   height:40px;
   width:30%;
-  margin:5px;
 }
 img {
-  float: left;
-  width: 38%;
+  width: 100%;
   height:240px;
   border-radius:4px;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-  transition: box-shadow 1s, transform 1s;
-  margin: 0px 20px 25px 10px;
 }
+
+/* Footer */
 
 footer{
   background-color: rgb(63,81,181);
