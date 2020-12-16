@@ -73,6 +73,9 @@ h6{
   .icon:active{
     color: rgb(14, 18, 41);;
   }
+  .icon:hover{
+     color:rgba(63, 81, 181, 0.815);
+  }
   .contact-p{
     text-align: center;
     font-size: 13px;
