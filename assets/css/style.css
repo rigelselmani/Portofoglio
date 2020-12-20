@@ -180,3 +180,31 @@ span{
   padding-top: 0px;
   margin:0 0 10px 0;
 }
+
+@media all and (max-width: 500px){
+  body{
+    color:blue;
+  }
+  .first-section{
+    float: none;
+    max-width:80%;
+  }
+  .second-section{
+    float: none;
+    max-width:90%;
+    margin-bottom:160px;
+  }
+  .second-head{
+    text-align: center;
+  }
+  .project{
+    width:90%;
+    margin: 20px auto;
+  }
+  .project:last-child{
+    margin-bottom:100px;
+  }
+  footer{
+   padding:0;
+  }
+}
