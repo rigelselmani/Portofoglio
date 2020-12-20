@@ -181,7 +181,7 @@ span{
   margin:0 0 10px 0;
 }
 
-@media all and (max-width: 500px){
+@media (max-width: 500px){
   body{
     color:blue;
   }
@@ -200,6 +200,11 @@ span{
   .project{
     width:90%;
     margin: 20px auto;
+    transition: none;
+  }
+  .project:hover{
+    transform: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   }
   .project:last-child{
     margin-bottom:100px;
