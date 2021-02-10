@@ -117,66 +117,79 @@ a {
     text-align: center;
 }
 
-.second-section {
-    display: flex;
-    flex-direction: column;
+
+/* ////////////////////////////
+// Project slider */
+
+.carousel-inner {
+    max-width: 80%;
+    height: 20rem;
+    margin-bottom: 5rem;
+    margin: 2rem auto;
+    border-radius: .5rem;
+    background-color: rgb(63, 81, 181);
+    box-shadow: 3px 3px 3px rgba(100, 99, 99, 0.5);
 }
 
-.f-line-project {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.carousel-control-next {
+    right: 9rem;
+    top: 9rem;
+    border-radius: 25px;
+    background-color: grey;
+    height: 3rem;
+    width: 3rem;
 }
 
-.s-line-project {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.project {
-    max-width: 31%;
-    margin-bottom: 3rem;
-    position: relative;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    transition: box-shadow 1s, transform 1s;
-    border-radius: 4px;
-}
-
-.project-img {
-    max-width: 100%;
-    height: 15rem;
-}
-
-.project:hover {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    transform: translate(5px, 15px);
-    cursor: pointer;
+.carousel-control-prev {
+    width: 3rem;
+    height: 3rem;
+    top: 9rem;
+    left: 9rem;
+    border-radius: 25px;
+    background-color: grey;
 }
 
 .see-code {
-    position: absolute;
-    background: rgb(63, 81, 181);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    width: 25%;
-    left: 12.4rem;
-    text-align: center;
-    padding: 10px 0;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
+    background-color: rgb(63, 81, 181);
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
+    font-size: .7rem;
+    padding: .7rem;
+    border-radius: .2rem;
+}
+
+.see-code:hover {
+    background-color: rgb(37, 47, 107);
+    color: #fff;
 }
 
 .try-app {
-    position: absolute;
-    background: rgb(245, 0, 87);
-    width: 25%;
-    color: white;
+    background-color: rgb(248, 15, 97);
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
+    font-size: .7rem;
+    padding: .7rem;
+    border-radius: .2rem;
+}
+
+.try-app:hover {
+    color: #fff;
+    background-color: rgb(192, 16, 78);
+}
+
+.project-name {
+    font-weight: 600;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 4rem;
     text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    text-decoration: none;
+}
+
+.tech-used {
+    width: 4.3rem;
+    height: 4.3rem;
 }
 
 
@@ -212,84 +225,18 @@ span {
     ;
 }
 
-
-/* ////////////////////////////
-// Project slider */
-
-.carousel-inner {
-    width: 80%;
-    height: 20rem;
-    margin-bottom: 5rem;
-    margin: 2rem auto;
-    border-radius: .5rem;
-    background-color: rgb(63, 81, 181);
-    box-shadow: 3px 3px 3px rgba(100, 99, 99, 0.5);
+@media only screen and (max-width:1120px) {
+    .try-app {
+        right: 27rem;
+    }
+    .projec-info {
+        margin: 5rem 0 0 22rem;
+    }
 }
 
-.carousel-caption {
-    display: flex;
-    flex-direction: column;
-}
-
-.carousel-control-next {
-    right: 9rem;
-    top: 9rem;
-    border-radius: 25px;
-    background-color: grey;
-    height: 3rem;
-    width: 3rem;
-}
-
-.carousel-control-prev {
-    width: 3rem;
-    height: 3rem;
-    top: 9rem;
-    left: 9rem;
-    border-radius: 25px;
-    background-color: grey;
-}
-
-.carousel-caption {
-    display: inline-block;
-}
-
-.see-code {
-    background-color: rgb(63, 81, 181);
-    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
-    font-size: .8rem;
-    width: 5rem;
-    height: 2.3rem;
-}
-
-.see-code:hover {
-    background-color: rgb(37, 47, 107);
-    color: #fff;
-}
-
-.try-app {
-    background-color: rgb(248, 15, 97);
-    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
-    font-size: .8rem;
-    width: 5rem;
-    right: 33rem;
-}
-
-.try-app:hover {
-    color: #fff;
-    background-color: rgb(192, 16, 78);
-}
-
-.project-name {
-    font-weight: 600;
-    color: #fff;
-}
-
-.projec-info {
-    text-align: center;
-    margin: 5rem 0 0 30rem;
-}
-
-.tech-used {
-    width: 4.3rem;
-    height: 4.3rem;
+@media only screen and (max-width:900px) {
+    .first-section {
+        display: flex;
+        flex-direction: columd;
+    }
 }
