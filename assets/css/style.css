@@ -123,7 +123,7 @@ a {
 
 .carousel-inner {
     max-width: 80%;
-    height: 20rem;
+    height: 18rem;
     margin-bottom: 5rem;
     margin: 2rem auto;
     border-radius: .5rem;
@@ -133,7 +133,7 @@ a {
 
 .carousel-control-next {
     right: 9rem;
-    top: 9rem;
+    top: 7rem;
     border-radius: 25px;
     background-color: grey;
     height: 3rem;
@@ -143,7 +143,7 @@ a {
 .carousel-control-prev {
     width: 3rem;
     height: 3rem;
-    top: 9rem;
+    top: 7rem;
     left: 9rem;
     border-radius: 25px;
     background-color: grey;
@@ -155,7 +155,9 @@ a {
     box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
     font-size: .7rem;
     padding: .7rem;
+    margin-bottom: 2rem;
     border-radius: .2rem;
+    width: 6rem;
 }
 
 .see-code:hover {
@@ -169,7 +171,9 @@ a {
     box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
     font-size: .7rem;
     padding: .7rem;
+    margin-bottom: 3rem;
     border-radius: .2rem;
+    width: 6rem;
 }
 
 .try-app:hover {
@@ -177,8 +181,13 @@ a {
     background-color: rgb(192, 16, 78);
 }
 
+.projec-info {
+    margin-left: 25rem;
+}
+
 .project-name {
     font-weight: 600;
+    padding-top: 2rem;
     color: #fff;
 }
 
@@ -188,8 +197,7 @@ a {
 }
 
 .tech-used {
-    width: 4.3rem;
-    height: 4.3rem;
+    font-size: 3.5rem;
 }
 
 
