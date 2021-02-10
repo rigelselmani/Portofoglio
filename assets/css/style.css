@@ -1,250 +1,266 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #fff;
-}
-
-.container {
-    max-width: 80rem;
-    margin: auto;
-    padding: 1rem;
-}
-
-.first-section {
-    display: flex;
-    padding-top: 1.8rem;
-}
-
-.info {
-    flex: 0 0 50%;
-    color: #0f4c75;
-    padding-right: 2rem;
-}
-
-h2 {
-    color: #0f4c75;
-    margin: .7rem 0;
-    font-size: 3rem;
-}
-
-.web {
-    color: rgb(109, 109, 109);
-    font-size: 2.2rem;
-    font-weight: bold;
-    margin-top: 0;
-}
-
-.carear-focus {
-    margin-top: 0px;
-}
-
-.technical {
-    margin-bottom: .3rem;
-    font-size: 1.4rem;
-}
-
-p {
-    margin-bottom: 1rem;
-    line-height: 1.4rem;
-    font-size: 1.2rem;
-}
-
-.contact-section {
-    flex: 1;
-    color: #0f4c75;
-    box-shadow: 1px 2px 6px 0.1px rgba(187, 184, 184, 0.5);
-    border-radius: 5px;
-    border: 1px solid rgb(248, 247, 247);
-}
-
-#contact {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.contact-text {
-    text-align: center;
-}
-
-h6 {
-    padding-left: 1rem;
-    font-size: 1.2rem;
-    font-weight: 100;
-    margin: 1.3rem 0;
-    color: #0f4c75;
-}
-
-a {
-    color: rgb(63, 81, 181);
-}
-
-.icon {
-    font-size: 2rem;
-}
-
-.icon:active {
-    color: rgb(14, 18, 41);
-    ;
-}
-
-.icon:hover {
-    color: rgba(63, 81, 181, 0.815);
-}
-
-.contact-p {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.check {
-    margin: 6rem 0 0 1rem;
-}
-
-
-/* //////////////////////////////////////////
-// Second section   */
-
-.second-head {
-    color: #0f4c75;
-    font-size: 2rem;
-    margin: 5rem 0 2rem 0;
-    text-align: center;
-}
-
-
-/* ////////////////////////////
-// Project slider */
-
-.carousel-inner {
-    max-width: 80%;
-    height: 18rem;
-    margin-bottom: 5rem;
-    margin: 2rem auto;
-    border-radius: .5rem;
-    background-color: rgb(63, 81, 181);
-    box-shadow: 3px 3px 3px rgba(100, 99, 99, 0.5);
-}
-
-.carousel-control-next {
-    right: 9rem;
-    top: 7rem;
-    border-radius: 25px;
-    background-color: grey;
-    height: 3rem;
-    width: 3rem;
-}
-
-.carousel-control-prev {
-    width: 3rem;
-    height: 3rem;
-    top: 7rem;
-    left: 9rem;
-    border-radius: 25px;
-    background-color: grey;
-}
-
-.see-code {
-    background-color: rgb(63, 81, 181);
-    color: #fff;
-    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
-    font-size: .7rem;
-    padding: .7rem;
-    margin-bottom: 2rem;
-    border-radius: .2rem;
-    width: 6rem;
-}
-
-.see-code:hover {
-    background-color: rgb(37, 47, 107);
-    color: #fff;
-}
-
-.try-app {
-    background-color: rgb(248, 15, 97);
-    color: #fff;
-    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
-    font-size: .7rem;
-    padding: .7rem;
-    margin-bottom: 2rem;
-    border-radius: .2rem;
-    width: 6rem;
-}
-
-.try-app:hover {
-    color: #fff;
-    background-color: rgb(192, 16, 78);
-}
-
-.projec-info {
-    margin-left: 25rem;
-}
-
-.project-name {
-    font-weight: 600;
-    padding-top: 2rem;
-    color: #fff;
-}
-
-.carousel-item {
-    padding: 4rem;
-    text-align: center;
-}
-
-.tech-used {
-    font-size: 3.5rem;
-}
-
-
-/*/////////////////////////////
-// Footer */
-
-footer {
-    background-color: rgb(63, 81, 181);
-    color: rgb(26, 25, 25);
-    padding: 1.2rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
-.p-footer1 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    line-height: .7rem;
-    font-size: 1.2rem;
-    color: rgb(26, 25, 25);
-}
-
-span {
-    font-size: 1.3;
-    font-weight: 600;
-    color: rgb(26, 25, 25);
-}
-
-.p-footer2 {
-    font-size: 1rem;
-    color: rgb(26, 25, 25);
-    margin-top: .2rem;
-    ;
-}
-
-@media only screen and (max-width:1120px) {
-    .try-app {
-        right: 27rem;
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #fff;
     }
-    .projec-info {
-        margin: 5rem 0 0 22rem;
+    
+    .container {
+        max-width: 80rem;
+        margin: auto;
+        padding: 1rem;
     }
-}
-
-@media only screen and (max-width:900px) {
+    
     .first-section {
         display: flex;
-        flex-direction: columd;
+        padding-top: 1.8rem;
     }
-}
+    
+    .info {
+        flex: 0 0 50%;
+        color: #0f4c75;
+        padding-right: 2rem;
+    }
+    
+    h2 {
+        color: #0f4c75;
+        margin: .7rem 0;
+        font-size: 3rem;
+    }
+    
+    .web {
+        color: rgb(109, 109, 109);
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    
+    .carear-focus {
+        margin-top: 0px;
+    }
+    
+    .technical {
+        margin-bottom: .3rem;
+        font-size: 1.4rem;
+    }
+    
+    p {
+        margin-bottom: 1rem;
+        line-height: 1.4rem;
+        font-size: 1.2rem;
+    }
+    
+    .contact-section {
+        flex: 1;
+        color: #0f4c75;
+        box-shadow: 1px 2px 6px 0.1px rgba(187, 184, 184, 0.5);
+        border-radius: 5px;
+        border: 1px solid rgb(248, 247, 247);
+    }
+    
+    #contact {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .contact-text {
+        text-align: center;
+    }
+    
+    h5 {
+        padding-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin: 1.3rem 0;
+        color: #0f4c75;
+    }
+    
+    a {
+        color: rgb(63, 81, 181);
+    }
+    
+    .icon {
+        font-size: 2rem;
+    }
+    
+    .icon:active {
+        color: rgb(14, 18, 41);
+        ;
+    }
+    
+    .icon:hover {
+        color: rgba(63, 81, 181, 0.815);
+    }
+    
+    .contact-p {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .check {
+        margin: 6rem 0 0 1rem;
+    }
+    /* //////////////////////////////////////////
+// Second section   */
+    
+    .second-head {
+        color: #0f4c75;
+        font-size: 2rem;
+        margin: 5rem 0 2rem 0;
+        text-align: center;
+    }
+    /* ////////////////////////////
+// Project slider */
+    
+    .carousel-inner {
+        max-width: 80%;
+        height: 18rem;
+        margin-bottom: 5rem;
+        margin: 2rem auto;
+        border-radius: .5rem;
+        background-color: rgb(63, 81, 181);
+        box-shadow: 3px 3px 3px rgba(100, 99, 99, 0.5);
+    }
+    
+    .carousel-control-next {
+        right: 9rem;
+        top: 7rem;
+        border-radius: 25px;
+        background-color: grey;
+        height: 3rem;
+        width: 3rem;
+    }
+    
+    .carousel-control-prev {
+        width: 3rem;
+        height: 3rem;
+        top: 7rem;
+        left: 9rem;
+        border-radius: 25px;
+        background-color: grey;
+    }
+    
+    .see-code {
+        background-color: rgb(63, 81, 181);
+        color: #fff;
+        box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
+        font-size: .7rem;
+        padding: .7rem;
+        margin-bottom: 2rem;
+        border-radius: .2rem;
+        width: 6rem;
+    }
+    
+    .see-code:hover {
+        background-color: rgb(37, 47, 107);
+        color: #fff;
+    }
+    
+    .try-app {
+        background-color: rgb(248, 15, 97);
+        color: #fff;
+        box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
+        font-size: .7rem;
+        padding: .7rem;
+        margin-bottom: 2rem;
+        border-radius: .2rem;
+        width: 6rem;
+    }
+    
+    .try-app:hover {
+        color: #fff;
+        background-color: rgb(192, 16, 78);
+    }
+    
+    .projec-info {
+        margin-left: 25rem;
+    }
+    
+    .project-name {
+        font-weight: 600;
+        padding-top: 2rem;
+        color: #fff;
+    }
+    
+    .carousel-item {
+        padding: 4rem;
+        text-align: center;
+    }
+    
+    .tech-used {
+        font-size: 3.5rem;
+    }
+    /*/////////////////////////////
+// Footer */
+    
+    footer {
+        background-color: rgb(63, 81, 181);
+        color: rgb(26, 25, 25);
+        padding: 1.2rem;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .p-footer1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        line-height: .7rem;
+        font-size: 1.2rem;
+        color: rgb(26, 25, 25);
+    }
+    
+    span {
+        font-size: 1.3;
+        font-weight: 600;
+        color: rgb(26, 25, 25);
+    }
+    
+    .p-footer2 {
+        font-size: 1rem;
+        color: rgb(26, 25, 25);
+        margin-top: .2rem;
+        ;
+    }
+    
+    @media only screen and (max-width:1000px) {
+        .first-section {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-section {
+            margin-top: 1rem;
+        }
+        .check {
+            margin: 4rem 0 1rem 1rem;
+        }
+        .second-head {
+            margin: 2rem 0 2rem 0;
+        }
+        .carousel-inner {
+            max-width: 100%;
+        }
+        .carousel-control-prev {
+            left: 1rem;
+        }
+        .carousel-control-next {
+            right: 1rem;
+        }
+    }
+    
+    @media only screen and (max-width:700px) {
+        p {
+            font-size: 1.3rem;
+            line-height: 1.9rem;
+            letter-spacing: 4rem;
+            background-color: red;
+        }
+        h5 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
