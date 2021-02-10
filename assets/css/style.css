@@ -146,6 +146,7 @@
     }
     
     .see-code {
+        text-decoration: none;
         background-color: rgb(63, 81, 181);
         color: #fff;
         box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
@@ -162,6 +163,7 @@
     }
     
     .try-app {
+        text-decoration: none;
         background-color: rgb(248, 15, 97);
         color: #fff;
         box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
@@ -227,7 +229,7 @@
         ;
     }
     
-    @media only screen and (max-width:1000px) {
+    @media only screen and (max-width: 1000px) {
         .first-section {
             display: flex;
             flex-direction: column;
@@ -252,7 +254,7 @@
         }
     }
     
-    @media only screen and (max-width:700px) {
+    @media only screen and (max-width: 700px) {
         p {
             font-size: 1.3rem;
             line-height: 1.9rem;
