@@ -222,6 +222,7 @@ span {
     margin-bottom: 5rem;
     margin: 2rem auto;
     border-radius: .5rem;
+    background-color: rgb(63, 81, 181);
     box-shadow: 3px 3px 3px rgba(100, 99, 99, 0.5);
 }
 
@@ -248,13 +249,16 @@ span {
     background-color: grey;
 }
 
+.carousel-caption {
+    display: inline-block;
+}
+
 .see-code {
     background-color: rgb(63, 81, 181);
+    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
     font-size: .8rem;
     width: 5rem;
     height: 2.3rem;
-    bottom: 25rem;
-    left: 5.8rem;
 }
 
 .see-code:hover {
@@ -264,10 +268,9 @@ span {
 
 .try-app {
     background-color: rgb(248, 15, 97);
+    box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.5);
     font-size: .8rem;
     width: 5rem;
-    height: 2.3rem;
-    bottom: 33rem;
     right: 33rem;
 }
 
@@ -278,7 +281,15 @@ span {
 
 .project-name {
     font-weight: 600;
-    margin-left: 25rem;
-    margin-bottom: 33rem;
-    color: #0f4c75;
+    color: #fff;
+}
+
+.projec-info {
+    text-align: center;
+    margin: 5rem 0 0 30rem;
+}
+
+.tech-used {
+    width: 4.3rem;
+    height: 4.3rem;
 }
