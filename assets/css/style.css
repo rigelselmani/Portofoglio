@@ -61,7 +61,7 @@
     }
     
     #contact {
-        flex: 1;
+        /* flex: 1; */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -229,6 +229,16 @@
         ;
     }
     
+    @media only screen and (max-width: 1200px) {
+        .first-section {
+            display: flex;
+            flex-direction: column;
+        }
+        .info {
+            width: 100%;
+        }
+    }
+    
     @media only screen and (max-width: 1000px) {
         .first-section {
             display: flex;
@@ -254,15 +264,66 @@
         }
     }
     
-    @media only screen and (max-width: 700px) {
-        p {
-            font-size: 1.3rem;
-            line-height: 1.9rem;
-            letter-spacing: 4rem;
-            background-color: red;
+    @media screen and (max-width:740px) {
+        .first-section {
+            margin-top: 0;
+            padding-top: 1rem;
         }
-        h5 {
-            font-size: 1.5rem;
-            font-weight: 500;
+        .info {
+            width: 100%;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.3rem;
+            letter-spacing: .15rem;
+            word-wrap: break-word;
+        }
+        h2 {
+            margin: 0 0 .7rem 0;
+        }
+        .projec-info {
+            margin-left: 15rem;
+        }
+    }
+    
+    @media screen and (max-width:590px) {
+        .carousel-inner {
+            height: 22rem;
+        }
+        .carousel-caption {
+            top: 10rem;
+            left: 15rem;
+        }
+        .projec-info {
+            margin-left: 2rem;
+        }
+        .jquery {
+            margin-bottom: 0;
+        }
+        .project-name {
+            padding-top: 0;
+        }
+        .contact-p {
+            font-size: .8rem;
+            ;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        .carousel-caption {
+            top: 9rem;
+            left: 10rem;
+        }
+        footer {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:380px) {
+        .carousel-caption {
+            left: 8rem;
+        }
+        .tech-used {
+            display: none;
         }
     }
