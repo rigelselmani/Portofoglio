@@ -315,8 +315,18 @@
             top: 9rem;
             left: 10rem;
         }
+        .carousel-inner {
+            margin-bottom: .2rem;
+        }
         footer {
-            display: none;
+            margin-top: 0;
+        }
+        .p-footer1 {
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+        .p-footer2 {
+            margin-bottom: 0;
         }
     }
     
