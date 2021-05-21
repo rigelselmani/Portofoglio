@@ -291,6 +291,9 @@
         .carousel-inner {
             height: 22rem;
         }
+        .check{
+            font-size: .7rem;   
+        }
         .carousel-caption {
             top: 10rem;
             left: 15rem;
@@ -306,7 +309,6 @@
         }
         .contact-p {
             font-size: .8rem;
-            ;
         }
     }
     
