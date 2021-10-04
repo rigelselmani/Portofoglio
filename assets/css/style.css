@@ -289,17 +289,39 @@
     
     @media screen and (max-width:590px) {
         .carousel-inner {
-            height: 22rem;
+            height: 18rem;
+            display: flex;
+            justify-content: center;
+            margin:0;
+        }
+        .carousel-item{
+            width:100%;
+            display: 6rem;
+            flex-direction: row;
+            justify-content: center;
+            margin-right: 0;
+        }
+        .projec-info{
+            margin:0;
+        }
+        .language-info{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
         }
         .check{
             font-size: .7rem;   
         }
         .carousel-caption {
-            top: 10rem;
-            left: 15rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
         }
         .projec-info {
-            margin-left: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .jquery {
             margin-bottom: 0;
@@ -308,42 +330,14 @@
             padding-top: 0;
         }
         .contact-p {
-            font-size: .8rem;
+            font-size: .7rem;
         }
-    }
-    
-    @media screen and (max-width:500px) {
-        .carousel-caption {
-            top: 9rem;
-            left: 10rem;
+        .see-code{
+            margin-bottom:.2rem;
+            box-shadow: 1px 1px 2px 2px rgba(36, 35, 35, 0.5);
         }
-        .carousel-inner {
-            margin-bottom: .2rem;
-        }
-        footer {
-            margin-top: 0;
-        }
-        .p-footer1 {
-            font-size: 1rem;
-            line-height: 1rem;
-        }
-        .p-footer2 {
-            margin-bottom: 0;
-        }
-    }
-    
-    @media screen and (max-width:380px) {
-        .carousel-caption {
-            left: 8rem;
-        }
-        .tech-used {
-            margin: 0;
-            font-size: 2.5rem;
-            ;
-        }
-        .jquery {
-            margin: 0;
-            width: 2rem;
-            height: 2rem;
+        .try-app{
+            box-shadow: 1px 1px 2px 2px rgba(36, 35, 35, 0.5);
+            margin-bottom:.2rem;
         }
     }
