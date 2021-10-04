@@ -288,21 +288,19 @@
     }
     
     @media screen and (max-width:590px) {
+        .contact-p {
+            font-size: .9rem;
+        }
         .carousel-inner {
-            height: 18rem;
-            display: flex;
-            justify-content: center;
+            height: 20rem;
             margin:0;
         }
         .carousel-item{
             width:100%;
-            display: 6rem;
-            flex-direction: row;
-            justify-content: center;
             margin-right: 0;
         }
         .projec-info{
-            margin:0;
+            margin:0 0 7rem 0;
         }
         .language-info{
             display: flex;
@@ -316,28 +314,23 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-
         }
         .projec-info {
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
-        .jquery {
-            margin-bottom: 0;
-        }
         .project-name {
             padding-top: 0;
         }
-        .contact-p {
-            font-size: .7rem;
-        }
         .see-code{
-            margin-bottom:.2rem;
+            width:8rem;
+            margin-bottom:.4rem;
             box-shadow: 1px 1px 2px 2px rgba(36, 35, 35, 0.5);
         }
         .try-app{
+            width:8rem;
             box-shadow: 1px 1px 2px 2px rgba(36, 35, 35, 0.5);
-            margin-bottom:.2rem;
+            
         }
     }
