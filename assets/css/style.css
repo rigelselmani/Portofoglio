@@ -291,15 +291,21 @@
         .contact-p {
             font-size: .9rem;
         }
+        .check{
+            display: none;
+        }
         .carousel-inner {
             height: 20rem;
             margin:0;
+            padding-top: -2rem;
         }
-        .carousel-item{
+        .carousel-item.active{
             width:100%;
+
         }
         .projec-info{
             margin:0 0 7rem 0;
+            padding-top:0;
         }
         .language-info{
             display: flex;
