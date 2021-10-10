@@ -288,6 +288,12 @@
     }
     
     @media screen and (max-width:590px) {
+        .first-section {
+            padding-top: 0;
+        }
+        .second-head{
+            margin:.8rem;
+        }
         .contact-p {
             font-size: .9rem;
         }
