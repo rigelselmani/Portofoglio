@@ -36,7 +36,10 @@
         font-weight: bold;
         margin-top: 0;
     }
-    
+    bdi{
+        color: rgb(109, 109, 109);
+        font-weight: bold;
+    }
     .carear-focus {
         margin-top: 0px;
     }
