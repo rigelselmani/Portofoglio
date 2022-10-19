@@ -21,9 +21,12 @@
     .info {
         flex: 0 0 50%;
         color: #0f4c75;
-        padding-right: 2rem;
+        padding-right: 1rem;
+        word-break: normal;
     }
-    
+    .skills-list{
+        margin-bottom: 0;
+    }
     h2 {
         color: #0f4c75;
         margin: .7rem 0;
@@ -38,7 +41,6 @@
     }
     span{
         color: rgb(109, 109, 109);
-        /* font-weight: bold; */
             }
     .carear-focus {
         margin-top: 0px;
